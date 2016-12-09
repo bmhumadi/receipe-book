@@ -1,0 +1,9 @@
+<div class="row">
+  <div class="col-md-5">
+    <rb-receipe-list (receipeSelected)="selectedRecipe = $event"></rb-receipe-list>
+  </div>
+  <div class="col-md-7">
+    <rb-receipe-detail [selectedRecipe]="selectedRecipe"></rb-receipe-detail>
+  </div>
+
+</div>
